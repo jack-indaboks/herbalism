@@ -1,0 +1,23 @@
+[
+	{
+		"name": "Medicinal Herbs",
+		"resourceType": "Strategic",
+		"revealedBy": "Herbology",
+		"terrainsCanBeFoundOn": ["Plains","Grassland","Hill","Forest","Jungle","Marsh"], // Hill only if plains or grassland
+		"food": 1,
+		"improvement": "Plantation",
+		"improvementStats": {"food": 1},
+		"uniques": ["Guaranteed with Strategic Balance resource option",
+					"Generated with weight [50] <in [Grassland] [Forest] tiles>",
+					"Generated with weight [50] <in [Plains] [Forest] tiles>",
+					"Generated with weight [50] <in [Grassland] [Jungle] tiles>",
+					"Generated with weight [50] <in [Plains] [Jungle] tiles>",
+					"Generated with weight [50] <in [Grassland] [Marsh] tiles>",
+					"Generated with weight [50] <in [Plains] [Marsh] tiles>",
+					"Generated with weight [50] <in [Fresh Water] tiles>",
+					"Minor deposits generated with weight [100] <in [Grassland] tiles>",
+					"Minor deposits generated with weight [100] <in [Plains] tiles>",
+		"majorDepositAmount": {"sparse": 2, "default": 4, "abundant": 6},
+		"minorDepositAmount": {"sparse": 1, "default": 2, "abundant": 3}
+	}
+]

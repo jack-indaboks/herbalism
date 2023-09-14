@@ -1,0 +1,23 @@
+[
+	{
+		"name": "Apothecary",
+		"food": 2,
+		"science": 1,
+		"maintenance": 1,
+		"requiredResource": "Medicinal Herbs",
+		"requiredTech": "Herbology",
+		"uniques": ["[Wounded] Units adjacent to this city heal [+10] HP per turn when healing"]
+	},
+	{
+		"name": "National Apothecary",
+		"isNationalWonder": true,
+		"science": 2,
+		"culture": 1,
+		"greatPersonPoints": {"Great Scientist": 1},
+		"specialistSlots": {"Scientist": 1},
+		"requiredTech": "Herbology",
+		"requiredResource": "Medicinal Herbs",
+		"uniques": ["Requires a [Apothecary] in all cities","Cost increases by [30] per owned city","All newly-trained [All] units [in all cities] receive the [Medic] promotion"],
+		"quote": "'The secrets are in the plants. To elicit them you have to love them enough.' - George Washington Carver"
+	}
+]
