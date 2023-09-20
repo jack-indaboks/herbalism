@@ -2,7 +2,7 @@
 	{
 		"name": "Medicinal Herbs",
 		"resourceType": "Strategic",
-		"revealedBy": "Herbology",
+		"revealedBy": "Herbalism",
 		"terrainsCanBeFoundOn": ["Plains","Grassland","Hill","Forest","Jungle","Marsh"],
 		"food": 1,
 		"improvement": "Plantation",

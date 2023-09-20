@@ -1,1 +1,1 @@
-# Herbology
+# Herbalism

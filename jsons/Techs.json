@@ -116,7 +116,7 @@
 				"quote": "'He made an instrument to know if the moon shine at full or no.' - Samuel Butler"
 			},
 			{
-				"name": "Herbology",
+				"name": "Herbalism",
 				"row": 3,
 				"prerequisites": ["Writing","Calendar"],
 				"quote": "'Let food be thy medicine and medicine be thy food.' - Hippocrates"
@@ -212,7 +212,7 @@
 			{
 				"name": "Education",
 				"row": 3,
-				"prerequisites": ["Theology","Civil Service","Herbology"],
+				"prerequisites": ["Theology","Civil Service","Herbalism"],
 				"uniques": ["Enables conversion of city production to [Science]"],
 				"quote": "'Education is the best provision for old age.' - Aristotle"
 			},
